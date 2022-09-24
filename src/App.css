@@ -1,0 +1,102 @@
+.App {
+    text-align: center;
+}
+
+.title {
+    padding: 1rem 0;
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    background-color: rgb(18, 31, 114);
+}
+
+.main {
+    background-color: rgb(146, 214, 100);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+}
+
+.time {
+    font-size: 1rem;
+    color: black;
+}
+
+.center {
+    background-color: white;
+    border-radius: 1rem;
+    width: 23rem;
+    height: 32rem;
+    padding-bottom: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.todo_style {
+    display: flex;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+
+input {
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(97, 94, 94);
+}
+
+.para {
+    /* width: 100%; */
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: #141468;
+    font-size: 4rem;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.list {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+.dlt {
+    cursor: pointer;
+    color: white;
+    transform: scale(1.6);
+}
+
+.btn-dlt {
+
+    transform: scale(.6);
+
+}
